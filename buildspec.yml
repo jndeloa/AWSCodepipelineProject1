@@ -10,8 +10,6 @@ phases:
       - npm install
   build: 
     commands:
-      - echo Build error simulation!
-      - exit 1
       - ng build --prod
     finially:
       -echo This is final block execution
